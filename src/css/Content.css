@@ -1,0 +1,35 @@
+.content{
+    position: relative;
+    height: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(58, 58, 58, 0.151);
+    padding: 10px;
+}
+.content .pic{
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.content .pic img{
+    height: 100%;
+    width: 100%;
+}
+.content h1{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.content h5{
+    color: black;
+    font-size: 12px;
+}
+.content .view{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    cursor: pointer;
+}
