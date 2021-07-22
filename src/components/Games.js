@@ -31,6 +31,7 @@ function Games() {
                 {gamethumb.map((data, index) => (
                 <Game
                     key={index}
+                    id={data.id}
                     img={data.img}
                     title={data.title}
                     genre={data.genre}
